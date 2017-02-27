@@ -1,7 +1,4 @@
-background {color: beige}
 
-
-h1 {color: darkgray}
   
 <img src="img/newpicture.JPG"
  alt="">
@@ -9,3 +6,37 @@ h1 {color: darkgray}
 p { font-family: sans-serif 'helvetica';
     color: dimgray;}
  
+background {color: beige}
+
+h1,h2 {
+    font-family: 'helvetica'}
+
+h1{
+    font-size: 4em}
+
+h2{
+    font-style: italic ;
+    font-size: 2em
+}
+
+header{
+    background:teal;
+    background:50%
+    position: fixed;
+    width: 100%
+}
+
+/*Layout*/
+.page-wrapper{
+    background:tan;
+    width: 90%;
+    margin: 0 auto   
+}
+
+#zen-supporting {
+    background: #80a793;
+}
+
+.sidebar {
+    background: #5c915c;
+}
