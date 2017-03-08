@@ -52,22 +52,25 @@ img{
 }
 
 #pic1{
-    transform:rotate(0deg); 
+    transform:rotate(0deg);
+    align-content: center;
+    justify-content: center;
 
 }
 
 #pic2{
     
-    transform:rotate(0deg); 
+    transform:rotate(0deg);
+    align-content: center;
+    justify-content: center;
 
 }
-
 
 #pic3{
     transform:rotate(0deg);
+    align-content: center;
+    justify-content: center;
 }
-
-
 
 
 
