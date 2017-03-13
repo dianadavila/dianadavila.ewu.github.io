@@ -30,16 +30,13 @@ h1,h2,h3,h4{
     
 }
 
-li {list-style: none;
-    display: inline; 
+li {list-style:none;
     font-family: 'helvetica';
     font-weight: 100;
-    text-transform: uppercase;
     letter-spacing: 0.3em;
     font-size: 1em;
-    line-height: 2;
+    flex-flow:row-reverse;
 }
-
 
 img{
     align-content:space-between;
@@ -51,28 +48,83 @@ img{
     
 }
 
-#pic1{
-    transform:rotate(0deg);
-    align-content: center;
-    justify-content: center;
+figure {
+  background: lightgray;
+  border-radius: 5px;
+  color: #fff;
+  padding: 2.75em;
+  width: 190px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+    transform:;
+}
+
+
+form {
+  background: lightgray;
+  padding: 1em;
+  width: 50%;
+}
+
+input {
+  display: block;
+}
+
+input[type="text"] {
+  background: gray;
+  border: 0;
+  border-radius: 10px;
+  color: white;
+  margin: 1em 1em 1em 0;
+  padding: .5em;
+}
+
+input[type="text"]:focus {
+  /*  override  */
+  outline: 0;
+  background: teal;
+}
+
+label {
+  font-family: 'Helvetica', thin;
+  font-size: 2em;
+}
+
+form {
+  flex-wrap: wrap;
+    align-content: center
 
 }
 
-#pic2{
+input[type="submit"] {
+  background: teal;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Helvetica', thin;
+  padding: 10px;
+  
     
-    transform:rotate(0deg);
-    align-content: center;
-    justify-content: center;
+    
+/*   position: absolute;
+  left: 125px;
+   */
 
+  display: block;
+  margin: 0 auto; 
+  
+  
+  
+/*  Figure Out
+  align-self: center; */
 }
 
-#pic3{
-    transform:rotate(0deg);
-    align-content: center;
-    justify-content: center;
+
+input[type="submit"]:hover{
+  background: white;
 }
-
-
 
 /*Layout*/
 .page-wrapper{
@@ -88,3 +140,5 @@ img{
 .sidebar {
     background: #5c915c;
 }
+
+
