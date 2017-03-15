@@ -146,3 +146,20 @@ input[type="submit"]:hover{
 }
 
 
+
+
+/* Form */
+
+
+
+label,
+input{
+  display: block;
+  margin: 1 em;
+}
+
+label,
+input [type="submit"] {
+    border:0}
+
+
