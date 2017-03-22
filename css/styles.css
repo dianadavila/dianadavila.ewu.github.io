@@ -8,7 +8,8 @@ line-height: normal;
 word-spacing: normal;
 text-align: center;
 text-align: justify;
-letter-spacing:.07em}
+letter-spacing:.07em;
+margin:3em;}
 
 nav ul {
 list-style:none;
@@ -33,21 +34,22 @@ h1{font-size:6em;
 h2{font-size: 2em;
 font-weight: lighter;
 text-align: center;
+text-align:justify;
 color: darkgray;
-line-height: normal;}
-
-
-
-
+line-height: normal;
+    margin: 1em;
+    
+}
 
 
 img{
     padding: 30px;
     justify-content:center; 
     display: flex;
-    flex-direction:row;
-    align-items: center;  
-   
+    flex-direction:column;
+    align-items: center;
+    margin-left: auto ;
+    margin-right: auto
 }
 
 .page-wrapper{
@@ -64,6 +66,9 @@ textarea {
   margin: .20em;
   padding: .20em;
   width: 28%;
+margin-left: auto;
+    margin-right:auto;
+    align-items: baseline;
 }
 
 textarea {
