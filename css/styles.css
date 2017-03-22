@@ -1,11 +1,45 @@
 body{
     background:whitesmoke;
-font-family: 'helvetica';}
+    font-family: 'helvetica';
+}
 
-nav ul {list-style: none;
+p{font-size: 1em;
+line-height: normal;
+word-spacing: normal;
+text-align: center;
+text-align: justify;
+letter-spacing:.07em}
+
+nav ul {
+list-style:none;
 display: flex;
 flex-wrap:wrap;
-justify-content: space-between}
+justify-content: space-between;
+font-weight:lighter;
+font-size: 1em;}
+
+
+ul li {list-style: none;
+text-align:center;
+font-size: 1em;}
+
+h1{font-size:6em;
+    align-content: center;
+    align-items: center;
+    color: darkslategray;
+    text-align: center
+}
+ 
+h2{font-size: 2em;
+font-weight: lighter;
+text-align: center;
+color: darkgray;
+line-height: normal;}
+
+
+
+
+
 
 img{
     padding: 30px;
@@ -13,15 +47,51 @@ img{
     display: flex;
     flex-direction:row;
     align-items: center;  
-    
+   
 }
 
 .page-wrapper{
     background:tan;
     width: 90%;
-    margin: 0 auto   
+    margin: 0 auto;
+    justify-content: flex-end;
 }
 
+label, 
+input,
+textarea {
+  display:flex;
+  margin: .20em;
+  padding: .20em;
+  width: 28%;
+}
+
+textarea {
+  height: 5em;
+}
+
+input[type="submit"] {
+  background: #6d6e71;
+  border-radius: 5px;
+  width: 10;
+  padding: 1em;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  background: darkslategray;
+  color: #fff;
+}
+
+:focus {
+  background: #ccc;
+}
+
+
+
+form {display: flex-end;
+align-content: center;
+justify-content: center;}
 
 
 
