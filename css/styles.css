@@ -1,258 +1,40 @@
 body{
     background:whitesmoke;
-font-family: helvetica;}
+font-family: 'helvetica';}
 
-p {
-  font-family: helvetica;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  line-height: 2.5;
-  text-align: left;
-  width: 50%;
-  margin-top: 5%;
-  margin-left: 5%;
-  color: dimgray;
-}
-
-h1{
-    font-family: 'helvetica';
-    font-size: 4em;
-    color: gray;
-    font-kerning:auto;
-    font-weight:100}
-
-
-h1,h2,h3,h4{
-    font-family: 'helvetica';
-    font-size: 4em;
-    color: gray;
-    font-kerning:auto;
-    font-weight:100}
-    
-}
-
-nav {
-    list-style: none;
-    font-family: 'helvetica';
-    font-weight: 100;
-    letter-spacing: 0.3em;
-    font-size: 1em;
-    flex-flow:column-reverse;
-}
+nav ul {list-style: none;
+display: flex;
+flex-wrap:wrap;
+justify-content: space-between}
 
 img{
-    align-content:space-between;
-    float: right;
-    image-orientation: right;
-    transform:rotate(90deg);
-    border-image-width: auto;
-    width: 50%
+    padding: 30px;
+    justify-content:center; 
+    display: flex;
+    flex-direction:row;
+    align-items: center;  
     
 }
 
-figure {
-  background: lightgray;
-  border-radius: 5px;
-  color: #fff;
-  padding: 10em;
-  width: 190px;
-    align-content: space-around;
-}
-
-figure img{
-    transform: rotate(360deg)
-}
-
-main {
-  display: flex;
-  flex-wrap: wrap;
-    transform:flex;
-}
-
-
-form {
-  background: lightgray;
-  padding: 1em;
-  width: 50%;
-}
-
-input {
-  display: inline;
-}
-
-input[type="text"] {
-  background: white;
-  border: 0;
-  border-radius: 1px;
-  color: white;
-  margin: 1em 1em 1em 0;
-  padding: .5em;
-}
-
-input[type="text"]:focus {
-  /*  override  */
-  outline: 0;
-  background: gray;
-}
-
-label {
-  font-family: 'Helvetica', thin;
-  font-size: 2em;
-}
-
-form {
-  flex-wrap: wrap;
-    align-content: center
-
-}
-
-input[type="submit"] {
-  background: gray;
-  border: none;
-  border-radius: 1px;
-  font-family: 'Helvetica', thin;
-  padding: 10px;
-  
-    
-    
-/*   position: absolute;
-  left: 125px;
-   */
-
-  display: block;
-  margin: 0 auto; 
-  
-  
-  
-/*  Figure Out
-  align-self: center; */
-}
-
-
-input[type="submit"]:hover{
-  background: white;
-}
-
-/*Layout*/
 .page-wrapper{
     background:tan;
     width: 90%;
     margin: 0 auto   
 }
 
-#zen-supporting {
-    background: #80a793;
-}
-
-.sidebar {
-    background: #5c915c;
-}
-
-
-/* Bio */
-
-
-.bio #bio {
-    background: gray;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bio #bio section {
-    margin: 0 10px;
-    width: 50%;
-}
-
-.bio section:nth-child(1) {
-    width: 400px;
-}
-
-/* Resume */
-.bio #resume {
-    background: orange;
-    display: flex;
-    flex-flow: wrap row;
-}
-
-.bio #resume section {
-    flex: 1 25%;
-}
-
-/* Form */
 
 
 
-label,
-input{
-  display: block;
-  margin: 1 em;
-}
-
-label,
-input [type="submit"] {
-    border:0}
-
-
-
-
-
-
-figure {
-  background: teal;
-  margin: 0;
-  padding: 1em;
-  
-  width: 12em;
-}
-  
-/* Fullsize Overlay/Lightbox/Modal */
-/* Hide It */
-.overlay {
-  display: none;
-  
-  /* Overlay Styling */
-  background: rgba(0,0,0,.25);
- 
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  top:0;
-  left:0;
+/* Mobile: 320px = 20em */
+@media screen and (min-width: 20em) { 
   
 }
 
-/* Show It */
-.overlay:target {
-  display: block;
-  
-  /* Contents of Overlay */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
-  min-height: 50vh;
-  
-  /*  Animation  */
-  animation: fadeish 1s;
+/* Tablet:  768px = 160em */
+@media screen and (min-width: 48em) 
+
 }
 
-/* EXTRA STYLING */
-.overlay img {
-  border: 10px solid #000;
-  border-radius: 10px;
-  box-shadow: 0 0 20px #333;
-}
-
-
-@keyframes fadeish {
-  0% { 
-    opacity: 0;
-    transform: scale(0);
-  }
-  
-  100% { 
-    opacity: 1;
-    transform: scale(1);
-  }
-}
+/* Desktop: 1280px = 80em */
+@media screen and (min-width: 80em) 
 
