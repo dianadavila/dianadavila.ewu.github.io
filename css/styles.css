@@ -1,13 +1,12 @@
 
-header
-{
+header{
+    
 background-image:url(../img/mountainview.jpeg);
 background-size: 100%;
 background-repeat: no-repeat;
-background-attachment: fixed;
+background-attachment:fixed;
 background-position: top;
-
-
+height: 300px;
     
 }
 
@@ -22,7 +21,8 @@ word-spacing: normal;
 text-align: center;
 text-align: justify;
 letter-spacing:.07em;
-margin:3em;}
+margin:3em;
+color:gray}
 
 
 
@@ -96,7 +96,7 @@ font-size: 1em;}
 
 
 img{
-    padding: 30px;
+    
     justify-content:center; 
     display: flex;
     flex-direction:column;
@@ -116,7 +116,7 @@ img{
 label, 
 input,
 textarea {
-    display:flex;
+    display:block;
     margin: .20em;
     padding: .20em;
     width: 28%;
@@ -124,9 +124,12 @@ textarea {
     margin-right:auto;
     align-items: baseline;
     margin-top: 8px;
-    position: a;
+    position:relative;
     bottom:0;
     border:round;
+    color: cadetblue;
+    
+    
 }
 
 textarea {
@@ -153,8 +156,10 @@ input[type="submit"]:hover {
 
 
 form {display: flex-end;
-align-content: center;
-justify-content: center;}
+align-content: flex-end;
+justify-content: center;
+image-orientation: bottom;
+}
 
 
 article {
