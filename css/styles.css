@@ -17,10 +17,17 @@ display: flex;
 flex-wrap:wrap;
 justify-content: space-between;
 font-weight:lighter;
-font-size: 1em;}
+font-size: 1em;
+}
 
 
-ul li {list-style: none;
+ul:hover {
+    color:gainsboro;
+}
+
+
+
+li {list-style: none;
 text-align:center;
 font-size: 1em;}
 
@@ -28,9 +35,16 @@ h1{font-size:6em;
     align-content: center;
     align-items: center;
     color: darkslategray;
-    text-align: center
+    text-align: center;
 }
- 
+
+h1:hover {
+  color: lightslategrey;
+    
+}
+
+
+
 h2{font-size: 2em;
 font-weight: lighter;
 text-align: center;
@@ -52,6 +66,7 @@ img{
     margin-right: auto
 }
 
+
 .page-wrapper{
     background:tan;
     width: 90%;
@@ -62,13 +77,16 @@ img{
 label, 
 input,
 textarea {
-  display:flex;
-  margin: .20em;
-  padding: .20em;
-  width: 28%;
-margin-left: auto;
+    display:flex;
+    margin: .20em;
+    padding: .20em;
+    width: 28%;
+    margin-left: auto;
     margin-right:auto;
     align-items: baseline;
+    margin-top: 8px;
+    position: a;
+    bottom:0;
 }
 
 textarea {
@@ -97,6 +115,14 @@ input[type="submit"]:hover {
 form {display: flex-end;
 align-content: center;
 justify-content: center;}
+
+
+
+
+
+
+
+
 
 
 
