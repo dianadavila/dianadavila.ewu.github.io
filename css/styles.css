@@ -1,5 +1,18 @@
+
+header
+{
+background-image:url(../img/mountainview.jpeg);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: top;
+
+
+    
+}
+
 body{
-    background:whitesmoke;
+    background:white;
     font-family: 'helvetica';
 }
 
@@ -11,6 +24,49 @@ text-align: justify;
 letter-spacing:.07em;
 margin:3em;}
 
+
+
+p2 {justify-content: left;
+ display: flex}
+
+
+
+h1{font-size:6em;
+    align-content: center;
+    align-items: center;
+    color:cadetblue;
+    text-align: center;
+}
+
+h1:hover {
+  color: gainsboro;
+    
+}
+
+
+
+h2{font-size: 1em;
+font-weight: lighter;
+text-align: center;
+text-align:justify;
+color: darkgray;
+line-height: normal;
+
+    
+}
+
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: gainsboro;   
+}
+
+a:hover {
+   color: cadetblue;
+}
+
+
 nav ul {
 list-style:none;
 display: flex;
@@ -18,11 +74,13 @@ flex-wrap:wrap;
 justify-content: space-between;
 font-weight:lighter;
 font-size: 1em;
+text-decoration: none;
 }
 
 
 ul:hover {
     color:gainsboro;
+    text-decoration: none;
 }
 
 
@@ -31,29 +89,10 @@ li {list-style: none;
 text-align:center;
 font-size: 1em;}
 
-h1{font-size:6em;
-    align-content: center;
-    align-items: center;
-    color: darkslategray;
-    text-align: center;
-}
-
-h1:hover {
-  color: lightslategrey;
-    
-}
 
 
 
-h2{font-size: 2em;
-font-weight: lighter;
-text-align: center;
-text-align:justify;
-color: darkgray;
-line-height: normal;
-    margin: 1em;
-    
-}
+
 
 
 img{
@@ -87,6 +126,7 @@ textarea {
     margin-top: 8px;
     position: a;
     bottom:0;
+    border:round;
 }
 
 textarea {
@@ -94,7 +134,7 @@ textarea {
 }
 
 input[type="submit"] {
-  background: #6d6e71;
+  background: gainsboro;
   border-radius: 5px;
   width: 10;
   padding: 1em;
@@ -102,7 +142,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-  background: darkslategray;
+  background: cadetblue;
   color: #fff;
 }
 
@@ -117,6 +157,11 @@ align-content: center;
 justify-content: center;}
 
 
+article {
+  display: block;
+  flex-flow: row;
+    text-align: left;
+}
 
 
 
