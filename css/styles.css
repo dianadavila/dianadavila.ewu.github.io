@@ -108,7 +108,8 @@ img{
     padding: 10px;
 }
 
-
+form{
+    vertical-align: baseline;}
 }
 
 .page-wrapper{
@@ -128,11 +129,13 @@ textarea {
     margin-left: auto;
     margin-right:auto;
     align-items: baseline;
-    margin-top: 8px;
+    margin-top: 1px;
     position:relative;
     bottom:0;
     border:round;
     color: cadetblue;
+    vertical-align: baseline;
+    
     
     
 }
@@ -172,6 +175,16 @@ article {
   flex-flow: row;
     text-align: left;
 }
+
+.footer {
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+
+
+
 
 
 
