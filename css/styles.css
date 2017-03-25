@@ -27,7 +27,13 @@ color:gray}
 
 
 p2 {justify-content: left;
- display: flex}
+    display: flex;
+    word-spacing: 3px;
+    line-height: 1.3p;
+    color: slategray;
+    margin-left: 20px;
+    
+}
 
 
 
@@ -40,11 +46,16 @@ h1{font-size:6em;
 }
 
 h1:hover {
-  color: gainsboro;
     
+    color: gainsboro;
+    text-decoration: underline; 
 }
 
-h2{
+
+
+
+
+h4{
 font-size: 3em;
 font-weight: lighter;
 text-align: center;
@@ -52,6 +63,27 @@ color: darkgray;
 line-height: normal;
 margin-left: auto;
 margin-right: auto;
+    
+}
+
+h2{
+font-size: 1.5em;
+font-weight: lighter;
+text-align: center;
+color: darkgray;
+line-height: normal;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
+text-transform: uppercase;
+text-shadow: 1px 1px gray 100%}
+
+h2:hover {
+    color:cadetblue;
+    
+    
+}
+
     
 }
 
@@ -107,6 +139,8 @@ img{
     margin-right: auto;
     padding: 10px;
 }
+
+
 
 form{
     vertical-align: baseline;}
