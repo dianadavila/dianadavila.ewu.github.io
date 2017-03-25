@@ -16,7 +16,7 @@ body{
 }
 
 p{font-size: 1em;
-line-height: normal;
+line-height:1.7;
 word-spacing: normal;
 text-align: center;
 text-align: justify;
@@ -84,27 +84,26 @@ h2:hover {
     
 }
 
-    
-}
-
 h3 {
     font-size: 1.6em;
-    color: lightgray;
+    color: white;
     font-weight: lighter;
-    text-align: center;
-    font-style: italic;   
+    text-align: left;
+    font-weight: thin;
+    padding: 50px;
+    background: cadetblue;
 }
-
-
 
 a:link,
 a:visited{
     text-decoration: none;
-    color: gainsboro;   
+    color: cadetblue;  
+    text-align: left;
+    padding: 25px
 }
 
 a:hover {
-   color: cadetblue;
+   color: gainsboro;
 }
 
 
@@ -114,8 +113,9 @@ display: flex;
 flex-wrap:wrap;
 justify-content: space-between;
 font-weight:lighter;
-font-size: 1em;
+font-size: 1.3em;
 text-decoration: none;
+text-align: left;
 }
 
 
